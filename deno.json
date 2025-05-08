@@ -1,5 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch --allow-all main.ts --set-state on"
+  },
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^1.0.17",
+    "@std/fs": "jsr:@std/fs@^1.0.17"
   }
 }
